@@ -10,3 +10,4 @@
               (nil? prev) (mknum (+ acc curr) curr rem)
               (> curr prev) (mknum (+ (- acc (* 2 prev)) curr) curr rem)
               :else (mknum (+ acc curr) curr rem)))))) 0 nil nums)))
+              

@@ -1,5 +1,6 @@
 ;;http://www.4clojure.com/problem/53
 
+
 (fn lis[input]
   (let [li (first (last (partition-by count (sort-by count (filter #(> (count %) 1)
           (partition-by #(= \# %)
