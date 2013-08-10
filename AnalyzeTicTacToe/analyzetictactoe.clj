@@ -1,4 +1,6 @@
 ;;http://www.4clojure.com/problem/73
+;;;hard puzzle
+
 
 (fn [a]
   (let [both     (reduce #(conj %1 %2) a (vec (for [x (range 3)]

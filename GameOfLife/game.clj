@@ -1,5 +1,7 @@
 ;;http://www.4clojure.com/problem/94
 
+
+
 (fn lifegame[in-arr]
   (let [get-at (fn[arr x y](nth (nth arr y) x))
         get-num (fn [arr x y]
